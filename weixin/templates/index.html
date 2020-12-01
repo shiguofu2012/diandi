@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <div class="goods-list">
+        {% for item in goods_list %}
+        <h2>{{item.title}}</h2>
+        <image src={{item.pic_url}} style="width: 100px;height: 100px;"></image>
+        {% endfor %}
+        </div>
+    </body>
+</html>
